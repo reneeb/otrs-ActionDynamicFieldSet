@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="1.0" init="Config">
+    <ConfigItem Name="Frontend::Module###AgentTicketDynamicFieldSet" Required="0" Valid="1">
+        <Description Lang="en">Frontend module registration to save dynmaic field changes.</Description>
+        <Description Lang="de">Frontendmodul-Registration für das Modul zum Speichern der Aenderungen an Dynamischen Feldern.</Description>
+        <Group>ActionDynamcFieldSet</Group>
+        <SubGroup>Frontend::Agent::ModuleRegistration</SubGroup>
+        <Setting>
+            <FrontendModuleReg>
+                <Description></Description>
+                <NavBarName>Ticket</NavBarName>
+                <Title></Title>
+            </FrontendModuleReg>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
+

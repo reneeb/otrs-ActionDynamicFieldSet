@@ -1,0 +1,21 @@
+=head1 NAME
+
+ActionDynamicFieldSet - Set a dynamic field for a ticket
+
+=head1 DESCRIPTION
+
+Currently it's only possible to change dynamic fields via the standard dialogs like Free Fields, Note and so on.
+This makes it difficult to develop addons that provide a shortcut to set a dynamic field. ActionDynamicFieldSet
+makes it easy to develop such addons.
+
+=head1 CODE RESPOSITORY AND BUGTRACKER
+
+The code repository and a bugtracker are available at L<https://github.com/reneeb/otrs-ActionDynamicFieldSet.git>
+
+=head1 AUTHOR AND LICENSE
+
+This package was written by Renee Baecker E<lt>otrs@perl-services.deE<gt>.
+
+The package is licensed unter AGPL. If you
+did not receive this file, see L<http://www.gnu.org/licenses/agpl.txt>.
+
